@@ -23,4 +23,6 @@ $("#send").on("click", function (event) {
         return console.error(err.toString());
     });
     event.preventDefault();
+
+    document.getElementById('mensagem').value = '';
 });
